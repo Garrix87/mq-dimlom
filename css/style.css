@@ -1286,7 +1286,7 @@ a {
 }
 
 .popup-hidden {
-  display: none;
+  display:none;
 }
 
 .popup-container {
@@ -1299,10 +1299,12 @@ a {
 }
 
 .close {
+  background-color: transparent;
+  border: none;
   display: block;
   position: absolute;
   width: 20px;
-  height: 20px;
+  height: 20px; 
   top: -30px;
   right: 0;
   background-image: url(../svg/form-x.svg);
